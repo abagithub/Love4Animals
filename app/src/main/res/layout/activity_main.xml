@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.example.android.love4animals.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#7d923a">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:gravity="center_vertical"
+            android:text="@string/title"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#32251d"
+            android:textSize="18dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="2.00"
+            android:gravity="center"
+            android:text="@string/description"
+            android:textAlignment="center"
+            android:textColor="#f1dbbb" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="#32251d">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:gravity="center"
+            android:text="@string/contact"
+            android:textAlignment="center"
+            android:textColor="#b5bec1"
+            android:textSize="18dp"
+            android:textStyle="bold|italic" />
+
+        <RadioGroup
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.76"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/locationButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/location_selector"
+                android:button="@null"
+                android:src="@drawable/location_selector"
+                android:text="@string/location"
+                android:textColor="@android:color/transparent" />
+
+            <RadioButton
+                android:id="@+id/phoneButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/phone_selector"
+                android:button="@null"
+                android:src="@drawable/phone_selector"
+                android:text="@string/phone"
+                android:textColor="@android:color/transparent" />
+
+            <RadioButton
+                android:id="@+id/emailButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/email_selector"
+                android:button="@null"
+                android:src="@drawable/email_selector"
+                android:text="@string/email"
+                android:textColor="@android:color/transparent" />
+
+            <RadioButton
+                android:id="@+id/webButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/web_selector"
+                android:button="@null"
+                android:src="@drawable/web_selector"
+                android:text="@string/web"
+                android:textColor="@android:color/transparent" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>
+

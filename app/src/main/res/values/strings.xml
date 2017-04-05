@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Love4Animals</string>
+    <string name="title">Services :</string>
+    <string name="description" style="text-align:justify">clinical consultations, health certificate, vaccinations, treatments,
+        surgeries,microchip implant and passport, ultrasound, lab tests, scaling,
+        canine and feline hairdressing and grooming  services, walking services, feeding and caring of pets,
+        home delivery.</string>
+    <string name="contact">Contact us :</string>
+    <string name="location">Location: Arad, Str. Petru Rares, nr. 48 A</string>
+    <string name="phone">Phone: Vug George 0726.142.488</string>
+    <string name="email">Email: george25vet@gmail.com</string>
+    <string name="web">Web: www.facebook.com/ageovettreat.cabinetveterinar</string>
+</resources>
